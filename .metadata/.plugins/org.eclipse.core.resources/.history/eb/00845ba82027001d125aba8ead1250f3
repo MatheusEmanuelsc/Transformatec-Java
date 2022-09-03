@@ -1,0 +1,16 @@
+package exptions;
+
+public class Account {
+	
+	static void readFile (String fileName) {
+		
+	}
+	
+	static void readingFile(FileReader file) {
+		
+	}
+	public static void main(String[] args) {
+		System.out.println("Hello world");
+		readFile(fileName:"openFile/files/arquivo.txt");
+	}
+}

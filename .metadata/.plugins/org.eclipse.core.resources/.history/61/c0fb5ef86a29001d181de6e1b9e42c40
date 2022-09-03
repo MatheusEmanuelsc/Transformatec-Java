@@ -1,0 +1,30 @@
+package stream;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lamb {
+	public static void main(String[] args) {
+
+		List<String> nome = new ArrayList<>();
+
+		nome.add("gab");
+		nome.add("tsi");
+		nome.add("bai");
+		nome.add("kai");
+		nome.add("zen");
+		nome.add("viem");
+		nome.add("lacem");
+
+		nome.forEach(
+				(name)->System.out.println(name)
+				);
+		
+		System.out.println("");
+		nome.forEach((name)->{
+			if (name.length()>=3) {
+				System.out.println(name);
+			}
+		});
+	}
+}

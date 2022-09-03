@@ -1,0 +1,30 @@
+package organizador;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class DespesaStream {
+
+	public static void main(String[] args) {
+		
+		
+		List<Despesa>listaDeDespesa= new ArrayList<>();
+		Scanner entradaDeDados= new Scanner(System.in);
+		
+		listaDeDespesa.add(new Despesa(3, "luz", 50d, "20/09/23", "1234545"));
+		listaDeDespesa.add(new Despesa(3, "carro", 1200d, "20/01/23", "123464"));
+		listaDeDespesa.add(new Despesa(3, "condomínio", 500d, "20/10/22", "123455"));
+		listaDeDespesa.add(new Despesa(3, "agua", 30d, "20/09/22", "1237845"));
+		listaDeDespesa.add(new Despesa(3, "club", 160d, "08/11/23", "1234555"));
+		
+		for (Despesa despesa : listaDeDespesa) {
+			System.out.println(despesa.getNome());
+			System.out.println(despesa.getCategoria());
+			System.out.println(despesa.getId());
+			System.out.println(despesa.getValor());
+			
+			System.out.println("");
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package stream3;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CarrinhoDeCompras {
+	public static void main(String[] args) {
+
+		List<Produto>compras= new ArrayList<>();
+		compras.add(new Produto(1, "celular", 600d));
+	}
+}
