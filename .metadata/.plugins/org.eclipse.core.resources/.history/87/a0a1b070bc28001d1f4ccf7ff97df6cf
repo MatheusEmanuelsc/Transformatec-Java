@@ -1,8 +1,0 @@
-package collec;
-
-public class Deq {
-	public static void main(String[] args) {
-		
-		Deque
-	}
-}
